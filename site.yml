@@ -13,3 +13,5 @@
       tags: php
     - role: geerlingguy.mysql
       tags: mysql
+    - role: geerlingguy.composer
+      tags: composer
