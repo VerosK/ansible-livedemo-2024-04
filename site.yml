@@ -4,6 +4,12 @@
 
   roles:
     - role: geerlingguy.repo-epel
+      tags: repos
     - role: geerlingguy.repo-remi
+      tags: repos
     - role: geerlingguy.apache
+      tags: apache
     - role: geerlingguy.php
+      tags: php
+    - role: geerlingguy.mysql
+      tags: mysql
