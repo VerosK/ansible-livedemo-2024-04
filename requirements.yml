@@ -1,4 +1,8 @@
-
+# this is for ansible-galaxy
+#
+# use with
+#  ansible-galaxy install -r requirements.yml -p roles/
+#
 roles:
   - src: geerlingguy.php
     version: 5.0.1
@@ -8,3 +12,5 @@ roles:
     version: 2.1.0
   - src: geerlingguy.apache
     version: 4.0.0
+  - src: geerlingguy.mysql
+    version: 4.3.4
