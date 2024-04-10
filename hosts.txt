@@ -1,2 +1,7 @@
 [demo-hosts]
 ansible-cod.d53.cz
+
+[demo-hosts:vars]
+# ansible_ssh_user=ansible #  << this is deprecated
+ansible_user=ansible
+ansible_become=true
