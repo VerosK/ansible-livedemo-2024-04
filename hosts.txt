@@ -1,0 +1,2 @@
+[demo-hosts]
+ansible-cod.d53.cz

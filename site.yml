@@ -1,0 +1,6 @@
+#
+- name: Setup Passbolt environment
+  hosts: all
+
+  roles:
+    - role: geerlingguy.php
