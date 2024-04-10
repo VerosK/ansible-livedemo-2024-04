@@ -1,0 +1,6 @@
+
+- name: Symlink PHP8.3 to PHP8
+  ansible.builtin.file:
+    src: /usr/bin/{{ php_executable }}
+    dest: /usr/bin/php
+    state: link

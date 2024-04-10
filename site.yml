@@ -11,7 +11,9 @@
       tags: apache
     - role: geerlingguy.php
       tags: php
+    - role: local.php-symlink
+      tags: [ php, php-symlink ]
     - role: geerlingguy.mysql
       tags: mysql
     - role: geerlingguy.composer
-      tags: composer
+      tags: [ php, composer ]

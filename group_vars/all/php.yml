@@ -3,3 +3,5 @@ php_packages:
   - php83
   - php83-php
 php_enablerepo: "remi-php83,epel"
+
+php_executable: php83
