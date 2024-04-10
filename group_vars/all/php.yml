@@ -2,6 +2,10 @@
 php_packages:
   - php83
   - php83-php
+  - php83-php-intl
+  - php83-php-mbstring
+  - php83-php-simplexml
+  - php83-php-gd
 php_enablerepo: "remi-php83,epel"
 
 php_executable: php83

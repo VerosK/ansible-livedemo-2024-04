@@ -1,0 +1,13 @@
+# group_vars/all/mysql.yml
+# MySQL configuration for Passbolt
+
+mysql_databases:
+  - name: passbolt
+    collation: utf8_general_ci
+    encoding: utf8
+
+mysql_users:
+  - name: passbolt
+    host: localhost
+    password: passbolt
+    priv: passbolt.*:ALL
