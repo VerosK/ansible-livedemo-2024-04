@@ -3,4 +3,6 @@
   hosts: all
 
   roles:
-    - role: geerlingguy.php
+    - role: geerlingguy.repo-epel
+    - role: geerlingguy.repo-remi
+    #- role: geerlingguy.php
