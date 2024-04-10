@@ -2,5 +2,5 @@
 #
 # This script downloads required roles for the playbook.
 
-# Download role geerlingguy.php to roles/
-ansible-galaxy role install geerlingguy.php -p roles/
+# Download roles to roles/ dir
+ansible-galaxy role install -r requirements.yml -p roles/
